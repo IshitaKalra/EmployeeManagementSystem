@@ -1,0 +1,290 @@
+body {
+    background-color: white;
+}
+
+a{ text-decoration: none; }
+li{ list-style: none; }
+
+.text-right{ text-align: right; }
+header{border-bottom: solid 1px red;}
+nav ul{   }
+nav li{ float: left; padding-right: 50px;  }
+.topbox{ margin-top: 10px }
+.NewsBox{ position: relative; }
+.NewsBox img{ width: 100% }
+.NewsBox .overlay{ padding: 20px; box-sizing: border-box; background: rgba(0,0,0,.5); height:100px; position: absolute; bottom:3px; left: 0; width: 100%; }
+.NewsBox .overlay h3,.NewsBox .overlay p { margin:0px; color: #fff }
+.NewsBox .overlay p{ margin-top: 5px; }
+.head h3{
+  display: inline;
+  position: absolute;
+  left: 0;
+  top:0;
+  marging-top:0;
+  background-color: red;
+  color:white;
+
+}
+
+
+/*
+.NewsBox .overlay p{ margin-bottom: 10px; }*/
+
+h1 {
+    color: black;
+}
+p{
+	color: black;
+}
+.grid{
+	padding-left: 60px;
+	padding-right: 60px;
+
+}
+.column {
+    float: left;
+    width: auto;
+    padding: 7px;
+    align-items: start;
+
+}
+
+/* Clearfix (clear floats) */
+.row{
+    
+    grid-template-columns: 1fr 1fr;
+    display: inline-grid;
+}
+
+
+.searchbox input[type=search]{
+	padding:8px;
+	border:none;
+	margin-top:8px;
+	
+	font-size:17px;
+	}	
+.searchbox button:hover{
+	background: #ccc;
+	}	
+.searchbox button{
+	float:right;
+	color:#bbbbbb;
+	padding:8px;
+	margin-top:8px;
+	margin-right:0;
+	background:red;
+	font-size:17px;
+	border:none;
+	cursor:none;
+
+	}
+.dropdown {
+    		float: left;
+    		overflow: hidden;
+    		}
+.dropdown .dropbutton {
+    		font-size: 19px; 
+    		border: none;
+    		color: #6A6A6A;
+    		padding: 4px 5px;
+    		background-color: inherit;
+    		font-family: inherit; /* Important for vertical align on mobile phones */
+    		margin: 0 auto; /* Important for vertical align on mobile phones */
+    		}
+nav a:hover, .dropdown:hover .dropbutton {
+  		text-decoration: underline;
+  		text-decoration-color: red;
+		display:block;
+  		}
+
+ .values {
+
+  	display: none;
+  	position: absolute;
+  	background-color: #f9f9f9;
+  	min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 	z-index: 1;
+  	}
+
+.values a {
+		font-size:16px;
+  		float: none;
+  		color: black;
+  		padding: 12px 16px;
+  		text-decoration: none;
+  		display: block;
+  		text-align: left;
+ 	}
+
+.values a:hover {
+  			background-color: #ddd;
+ 		}
+
+.dropdown:hover .values {
+  			display: block;
+ 		}
+
+    .container{
+      padding: 20px;
+
+    }
+    .container img {
+      width=40px;
+      height=40px;
+    }
+    h5.line{
+ border-bottom:1px solid #ea4748;
+ padding-bottom:8px;
+ position:relative;
+ margin-bottom:10px;
+ text-transform:uppercase;
+}
+h5.line>span{
+ width:auto;
+ border-bottom:4px solid #ea4748;
+ padding-bottom:7px;
+ margin-right:10px;
+ font-color:grey;
+}
+ul.social{
+  list-style-type:none;
+  margin:0 0 0 0;
+  padding:0;
+  float:left;
+}
+ul.social li{
+  width:97px;
+  height:140px;
+  
+  margin-right:3px;
+  float:left;
+  text-align:center;
+  margin-bottom:3px;
+}
+ul.social li:nth-last-child(1){
+  margin-right:0;
+}
+ul.social li a{
+  display:block;
+  width:98px;
+  height:55px;
+  padding:15px 0 0 0;
+}
+
+ul.social li span{
+  margin-top:40px;
+  float:left;
+  text-align:center;
+  width:100%;
+  color:#696969;
+  padding:0 5px;
+  font-weight:bold;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+ul.social li span i{
+  font-weight:normal;
+}
+
+.temp img{
+  padding-bottom: 20px;
+  height: 86px;
+  width: 140px;
+
+}
+.temp a{
+  margin-left: 20px;
+  color:grey;
+}
+.connected h5{
+  background-color: grey;
+}
+.lifestyle img{
+  padding-bottom: 20px;
+  height:150px;
+  width:250px;
+  float: right;
+}
+.tab {
+    overflow: hidden;
+    border-bottom: red 2px solid;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    border-bottom: red 2px solid;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+   
+    border: none;
+}
+
+.subblock1 img{
+  padding-bottom:20px;
+
+}
+.subworldnews img{
+  float:left;
+  padding-bottom: 10px;
+}
+.subworldnews p{
+  float: right;
+}
+ .links{
+  border-bottom: solid 1px pink;
+}
+.links a{
+  color:red;
+}
+
+.navigation{
+  padding-bottom: 10px;
+}
+.navigation a{
+  color: grey;
+}
+.navigation a:hover{
+  text-decoration: underline;
+}
+p.copyright{
+ color:#FFFFFF;
+
+ float:right;
+ font-size:12px;
+ clear:both;
+ background:#ea4748;
+ margin-left:80%;
+ margin-bottom: 0;
+ padding:10px;
+
+}
+footer{border-bottom: solid 3px red;}
+.worldnews a{
+  color: red;
+}
+
